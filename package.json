@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "vercel-build": "node --openssl-legacy-provider node_modules/@angular/cli/bin/ng build --configuration=production"
+
   },
   "private": true,
   "dependencies": {
